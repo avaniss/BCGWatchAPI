@@ -11,4 +11,10 @@ public class Rolex extends Watch {
         this.id = defaultID;
     }
 
+    @Override
+    public int getDiscountedPrice(int quantity) {
+        // 3 for 200, every 3rd is free
+        int nonFreeWatches = (int) Math.ceil(quantity * 2d / 3d);
+        return nonFreeWatches * price;
+    }
 }

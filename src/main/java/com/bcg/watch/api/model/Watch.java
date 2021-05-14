@@ -42,4 +42,7 @@ public abstract class Watch {
         this.price = price;
     }
 
+    public int getDiscountedPrice(int quantity){
+        return quantity * price;
+    }
 }
