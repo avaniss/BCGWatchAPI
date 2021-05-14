@@ -51,7 +51,7 @@ git clone https://github.com/avaniss/BCGWatchAPI.git
 ```
 mvn clean install
 ```
-3. Now this project can be imported the IDE of your choice.
+3. Now this project can be imported the IDE of your choice.</br>
 **Note**: Intellij is used for demonstration in the following steps.
 
 ## Deployment
@@ -62,7 +62,7 @@ To run this application on your local machine:
  2. Create a run configuration as shown below:
 
    ![RunConfiguration](docs/runConfiguration.png)
- 3. Run the application using the above configuration.
+ 3. Run the application using the above configuration.</br>
  4. Once the application is up and running on the server, open your web browser and 
 navigate to- [http://localhost:8080/health](http://localhost:8080/health)
     
@@ -102,7 +102,7 @@ Sample request :
 
 ```["001","001","001","002","002","002","003","004"]```
 
-Output :
+Output [Content-type ```application/json```]:
 
 ```json
 {
